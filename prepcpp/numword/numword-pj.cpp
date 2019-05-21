@@ -10,9 +10,50 @@
 
 using namespace bw;
 
+const std::map<int, std::string> numword::_units{
+    {1,"one"},
+    {2,"two"},
+    {3,"three"},
+    {4,"four"},
+    {5,"five"},
+    {6,"six"},
+    {7,"seven"},
+    {8,"eight"},
+    {9,"nine"}
+};
+const std::map<int, std::string> numword::_tenths{
+    {10,"ten"},
+    {11,"eleven"},
+    {12,"twelve"},
+    {13,"thirteen"},
+    {14,"fourteen"},
+    {15,"fifteen"},
+    {16,"sixteen"},
+    {17,"seventeen"},
+    {18,"eighteen"},
+    {19,"nineteen"},
+    {2,"twenty"},
+    {3,"thirty"},
+    {4,"fourty"},
+    {5,"fifty"},
+    {6,"sixty"},
+    {7,"seventy"},
+    {8,"eighty"},
+    {9,"ninety"}
+};
+const std::map<int, std::string> numword::_places{
+    {0,""},
+    {1,"thousand"},
+    {2,"million"},
+    {3,"billion"},
+    {4,"trillion"},
+    {5,"quadrillion"}
+};
 numword::numword(): _num(0){}
 
 numword::numword(const uint64_t & n): _num(n){}
+
+numword::numword(const numword & rhs): _num(rhs._num){}
 
 uint64_t numword::getn () const { return _num;}
 
