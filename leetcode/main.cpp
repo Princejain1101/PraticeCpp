@@ -7,9 +7,13 @@
 //
 
 #include <iostream>
+#include "numUniqueEmails.hpp"
+
+using namespace std;
 
 int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
+    vector<string> emails({"test.email+alex@leetcode.com","test.e.mail+bob.cathy@leetcode.com","testemail+david@lee.tcode.com"});
+    Solution s;
+    cout<< s.numUniqueEmails(emails)<<endl;
     return 0;
 }
