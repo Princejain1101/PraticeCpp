@@ -6,18 +6,12 @@
 	objectVersion = 50;
 	objects = {
 
-/* Begin PBXContainerItemProxy section */
-		E1CE546B23245C46000F4B01 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = E1CE546723245C45000F4B01 /* CustomVector.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = E1CE545D23245C45000F4B01;
-			remoteInfo = CustomVector;
-		};
-/* End PBXContainerItemProxy section */
+/* Begin PBXBuildFile section */
+		E1CE548E23246B8E000F4B01 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E1CE548D23246B8E000F4B01 /* main.cpp */; };
+/* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		E17A3F6122A4E87B002EEEF5 /* CopyFiles */ = {
+		E1CE548823246B8E000F4B01 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -29,12 +23,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		E17A3F6322A4E87B002EEEF5 /* leetcode */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = leetcode; path = /Users/princeja/Desktop/advancedcppProjects/leetcode/build/Debug/leetcode; sourceTree = "<absolute>"; };
-		E1CE546723245C45000F4B01 /* CustomVector.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = CustomVector.xcodeproj; path = CustomVector/CustomVector.xcodeproj; sourceTree = "<group>"; };
+		E1CE548A23246B8E000F4B01 /* NewVector */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = NewVector; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1CE548D23246B8E000F4B01 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		E17A3F6022A4E87B002EEEF5 /* Frameworks */ = {
+		E1CE548723246B8E000F4B01 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -44,100 +38,94 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		E17A3F5A22A4E87B002EEEF5 = {
+		E1CE548123246B8E000F4B01 = {
 			isa = PBXGroup;
 			children = (
-				E1CE546723245C45000F4B01 /* CustomVector.xcodeproj */,
+				E1CE548C23246B8E000F4B01 /* NewVector */,
+				E1CE548B23246B8E000F4B01 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		E1CE546823245C45000F4B01 /* Products */ = {
+		E1CE548B23246B8E000F4B01 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E1CE546C23245C46000F4B01 /* CustomVector */,
+				E1CE548A23246B8E000F4B01 /* NewVector */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		E1CE548C23246B8E000F4B01 /* NewVector */ = {
+			isa = PBXGroup;
+			children = (
+				E1CE548D23246B8E000F4B01 /* main.cpp */,
+			);
+			path = NewVector;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		E17A3F6222A4E87B002EEEF5 /* leetcode */ = {
+		E1CE548923246B8E000F4B01 /* NewVector */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E17A3F6A22A4E87B002EEEF5 /* Build configuration list for PBXNativeTarget "leetcode" */;
+			buildConfigurationList = E1CE549123246B8E000F4B01 /* Build configuration list for PBXNativeTarget "NewVector" */;
 			buildPhases = (
-				E17A3F5F22A4E87B002EEEF5 /* Sources */,
-				E17A3F6022A4E87B002EEEF5 /* Frameworks */,
-				E17A3F6122A4E87B002EEEF5 /* CopyFiles */,
+				E1CE548623246B8E000F4B01 /* Sources */,
+				E1CE548723246B8E000F4B01 /* Frameworks */,
+				E1CE548823246B8E000F4B01 /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = leetcode;
-			productName = leetcode;
-			productReference = E17A3F6322A4E87B002EEEF5 /* leetcode */;
+			name = NewVector;
+			productName = NewVector;
+			productReference = E1CE548A23246B8E000F4B01 /* NewVector */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		E17A3F5B22A4E87B002EEEF5 /* Project object */ = {
+		E1CE548223246B8E000F4B01 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 1020;
 				ORGANIZATIONNAME = "Prince Jain";
 				TargetAttributes = {
-					E17A3F6222A4E87B002EEEF5 = {
+					E1CE548923246B8E000F4B01 = {
 						CreatedOnToolsVersion = 10.2.1;
 					};
 				};
 			};
-			buildConfigurationList = E17A3F5E22A4E87B002EEEF5 /* Build configuration list for PBXProject "leetcode" */;
+			buildConfigurationList = E1CE548523246B8E000F4B01 /* Build configuration list for PBXProject "NewVector" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = E17A3F5A22A4E87B002EEEF5;
-			productRefGroup = E17A3F5A22A4E87B002EEEF5;
+			mainGroup = E1CE548123246B8E000F4B01;
+			productRefGroup = E1CE548B23246B8E000F4B01 /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = E1CE546823245C45000F4B01 /* Products */;
-					ProjectRef = E1CE546723245C45000F4B01 /* CustomVector.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
-				E17A3F6222A4E87B002EEEF5 /* leetcode */,
+				E1CE548923246B8E000F4B01 /* NewVector */,
 			);
 		};
 /* End PBXProject section */
 
-/* Begin PBXReferenceProxy section */
-		E1CE546C23245C46000F4B01 /* CustomVector */ = {
-			isa = PBXReferenceProxy;
-			fileType = "compiled.mach-o.executable";
-			path = CustomVector;
-			remoteRef = E1CE546B23245C46000F4B01 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
-
 /* Begin PBXSourcesBuildPhase section */
-		E17A3F5F22A4E87B002EEEF5 /* Sources */ = {
+		E1CE548623246B8E000F4B01 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E1CE548E23246B8E000F4B01 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		E17A3F6822A4E87B002EEEF5 /* Debug */ = {
+		E1CE548F23246B8E000F4B01 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -196,7 +184,7 @@
 			};
 			name = Debug;
 		};
-		E17A3F6922A4E87B002EEEF5 /* Release */ = {
+		E1CE549023246B8E000F4B01 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -248,7 +236,7 @@
 			};
 			name = Release;
 		};
-		E17A3F6B22A4E87B002EEEF5 /* Debug */ = {
+		E1CE549223246B8E000F4B01 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -256,7 +244,7 @@
 			};
 			name = Debug;
 		};
-		E17A3F6C22A4E87B002EEEF5 /* Release */ = {
+		E1CE549323246B8E000F4B01 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -267,25 +255,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		E17A3F5E22A4E87B002EEEF5 /* Build configuration list for PBXProject "leetcode" */ = {
+		E1CE548523246B8E000F4B01 /* Build configuration list for PBXProject "NewVector" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E17A3F6822A4E87B002EEEF5 /* Debug */,
-				E17A3F6922A4E87B002EEEF5 /* Release */,
+				E1CE548F23246B8E000F4B01 /* Debug */,
+				E1CE549023246B8E000F4B01 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E17A3F6A22A4E87B002EEEF5 /* Build configuration list for PBXNativeTarget "leetcode" */ = {
+		E1CE549123246B8E000F4B01 /* Build configuration list for PBXNativeTarget "NewVector" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E17A3F6B22A4E87B002EEEF5 /* Debug */,
-				E17A3F6C22A4E87B002EEEF5 /* Release */,
+				E1CE549223246B8E000F4B01 /* Debug */,
+				E1CE549323246B8E000F4B01 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = E17A3F5B22A4E87B002EEEF5 /* Project object */;
+	rootObject = E1CE548223246B8E000F4B01 /* Project object */;
 }
